@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(249, 235, 215);
+
+}
+
+#padding-1 {
+    border-radius: 10px;
+}
+
+#emg-1 {
+    border-radius: 10px;
+}
+
+#border-1 {
+    border-radius: 10px;
+}
+
+/* الصور مش راضيه للاسف مش عارف ليه  */
+#radius {
+    border-radius: 30px;
+
+}
+
+#radius-2 {
+    border-radius: 30px;
+
+}
+
+#radius-3 {
+    border-radius: 30px;
+
+}

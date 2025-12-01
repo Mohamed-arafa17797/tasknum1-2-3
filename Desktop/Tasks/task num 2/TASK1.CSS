@@ -3,6 +3,14 @@ body {
 
 }
 
+/*  flex , justify-contain ,  */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #padding-1 {
     border-radius: 10px;
 }
@@ -11,22 +19,7 @@ body {
     border-radius: 10px;
 }
 
-#border-1 {
-    border-radius: 10px;
-}
-
-/* الصور مش راضيه للاسف مش عارف ليه  */
-#radius {
-    border-radius: 30px;
-
-}
-
-#radius-2 {
-    border-radius: 30px;
-
-}
-
-#radius-3 {
-    border-radius: 30px;
-
+.font-size {
+    font-style: italic;
+    font-size: 18px;
 }

@@ -1,0 +1,324 @@
+ body {
+     margin: 0px;
+     font-family: 'Times New Roman';
+     background-color: white;
+     color: #333;
+ }
+
+ /* HEADER */
+ header {
+     margin: 15px;
+     background-color: #333;
+     padding: 20px;
+     border-radius: 10px;
+ }
+
+ .center {
+     transition: 0.3s;
+ }
+
+ .center:hover {
+
+     letter-spacing: 2px;
+ }
+
+ .logo {
+     font-weight: bold;
+     color: #fff;
+ }
+
+ .img1 {
+     border-radius: 10px;
+ }
+
+ .Who {
+     padding: 40px 20px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin: 55px;
+     align-items: flex-start;
+     /* يخليهم على نفس الخط */
+     gap: 40px;
+     /* مسافة بينهم */
+     background: #ddd;
+     /* padding: 40px; */
+     border-radius: 20px;
+ }
+
+ .title {
+     font-size: 30px;
+     /* font-weight: 700; */
+     margin: 0;
+     white-space: nowrap;
+     /* يمنع العنوان من النزول لسطر جديد */
+ }
+
+ .hero1 {
+     background-color: #333;
+     text-align: center;
+     border-radius: 12px;
+
+ }
+
+ nav ul {
+     list-style: none;
+     display: flex;
+     justify-content: left;
+     gap: 25px;
+     margin: 0;
+     padding: 0;
+ }
+
+ nav a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: bold;
+ }
+
+ /* ---------------- بانر رئيسي ---------------- */
+
+ .elegance {
+     font-size: 30px;
+
+     font-weight: bold;
+     font-family: 'Times New Roman';
+     position: absolute;
+     top: 26%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background: transparent;
+     color: #fff;
+ }
+
+ .p {
+     font-weight: bold;
+     font-family: 'Times New Roman';
+     font-size: 24px;
+     text-align: center;
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background: transparent;
+     color: #fff;
+
+ }
+
+ .btn:hover {
+     background-color: white;
+     color: #333;
+
+ }
+
+ .btn2:hover {
+     background-color: white;
+     color: #333;
+
+ }
+
+ .btn {
+
+     position: absolute;
+     top: 60%;
+     left: 37%;
+     transform: translate(-50%, -50%);
+     background: transparent;
+     color: #fff;
+     border: 2px solid #fff;
+     padding: 10px 25px;
+     border-radius: 6px;
+     font-weight: bold;
+     font-size: 18px;
+     cursor: pointer;
+     transition: 0.3s;
+
+ }
+
+ .btn2 {
+     position: absolute;
+     top: 60%;
+     right: 16%;
+
+     transform: translate(-50%, -50%);
+     background: transparent;
+     color: #fff;
+     border: 2px solid #fff;
+     padding: 10px 25px;
+     border-radius: 6px;
+     font-weight: bold;
+     font-size: 18px;
+     cursor: pointer;
+     transition: 0.3s;
+
+ }
+
+ /* ---------------- المنتجات ---------------- */
+ .products {
+     padding: 40px 20px;
+ }
+
+ .mid {
+     text-align: center;
+     margin-bottom: 30px;
+     color: #121111;
+ }
+
+ .products h2 {
+     text-align: center;
+     margin-bottom: 15px;
+     color: #121111;
+ }
+
+ .product-list {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     gap: 25px;
+ }
+
+ .product {
+     background: #ddd;
+     width: 260px;
+     border-radius: 10px;
+     /* مش شغال وانا جضيت */
+     box-shadow: 4px 8px 12px rgba(251, 249, 249, 0.2);
+     padding: 15px;
+     text-align: center;
+ }
+
+
+ .product img {
+     width: 100%;
+     height: 320px;
+     object-fit: cover;
+     border-radius: 10px;
+ }
+
+ .price {
+     background: transparent;
+     color: #333;
+     border: 2px solid #333;
+     padding: 10px 25px;
+     border-radius: 6px;
+     font-weight: bold;
+     font-size: 18px;
+     cursor: pointer;
+     transition: 0.3s;
+ }
+
+ .price:hover {
+     background-color: #fff;
+     color: #333;
+ }
+
+ .product .btn {
+     margin-top: 10px;
+     font-size: 14px;
+     padding: 8px 15px;
+ }
+
+ /* ---------------- قسم العروض ---------------- */
+ .Desc {
+     font-size: 18px;
+     margin: 50px;
+     border-radius: 12px;
+     background: #ddd;
+     color: #333;
+     padding: 30px 20px;
+     display: flex;
+     justify-content: end;
+     gap: 20px;
+     text-align: left;
+     margin-top: 40px;
+ }
+
+
+
+ .Desc h2 {
+     margin-bottom: 10px;
+ }
+
+ .contact-container {
+     margin: 20px;
+     padding: 40px 20px;
+     display: flex;
+     /* يجعل المحتوى جنب بعض */
+     gap: 20px;
+     /* مسافة بين النص والخريطة */
+     align-items: flex-start;
+ }
+
+ .contact-text {
+     flex: 1;
+     /* النص ياخد مساحة متساوية */
+ }
+
+ .contact-map {
+     flex: 1;
+     /* الخريطة ياخد مساحة متساوية */
+     height: 400px;
+     /* ارتفاع الخريطة */
+ }
+
+ iframe {
+     width: 100%;
+     height: 100%;
+     border: 0;
+ }
+
+ .bfooter .column {
+     width: 23%;
+     min-width: 200px;
+     /* display: flex; */
+     /* justify-content: space-evenly; */
+     /* align-items: center; */
+
+ }
+
+ .bfooter {
+     background-color: dimgray;
+     padding: 50px 20px;
+     color: #ddd;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .bfooter .column {
+     width: 23%;
+     min-width: 200px;
+ }
+
+ .bfooter h3 {
+     margin-bottom: 15px;
+     color: #fff;
+     font-size: 18px;
+ }
+
+ .bfooter p,
+ .bfooter li {
+     font-size: 14px;
+     line-height: 1.6;
+ }
+
+ .bfooter ul {
+     list-style: none;
+     padding: 0;
+ }
+
+
+ .bfooter li::before {
+     content: "~ ";
+     color: #fff;
+ }
+
+ /* ---------------- الفوتر ---------------- */
+ footer {
+     /* border-radius: 5px;
+     background-color: #333; */
+     color: #333;
+     text-align: center;
+     /* padding: 10px;
+     margin-top: 20px;*/
+ }
